@@ -1,1 +1,2 @@
-line-bot-sdk==1.8.0
+line-bot-sdk==1.17.0
+urllib==1.25.0
