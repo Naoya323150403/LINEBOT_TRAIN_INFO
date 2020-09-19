@@ -13,7 +13,7 @@ LINE_USER_ID_TO = "U3adcd002fefaef0ace51869b69215e70"
 #スクレイピング
 url = 'https://transit.yahoo.co.jp/traininfo/area/4/'
 res = req.urlopen(url)
-soup = BeautifulSoup(res, "lxml")
+soup = BeautifulSoup(res, "html.parser")
 result = []
 
 #LINEBot
