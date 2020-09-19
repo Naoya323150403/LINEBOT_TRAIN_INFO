@@ -1,1 +1,1 @@
-web: python Tranfo.py
+web: python traininfo.py
