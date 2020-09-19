@@ -1,6 +1,5 @@
 #スクレイピング
 import urllib.request as req
-import sys
 from bs4 import BeautifulSoup
 #LINEBot
 from linebot import LineBotApi

@@ -1,2 +1,6 @@
-line-bot-sdk==1.17.0
-urllib==1.25.0
+line-bot-sdk
+urllib
+BeautifulSoup
+LineBotApi
+TextSendMessage
+LineBotApiError
