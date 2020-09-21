@@ -7,11 +7,11 @@ from linebot.models import TextSendMessage
 from linebot.exceptions import LineBotApiError
 
 #LINEBot チャネル
-line_bot_api = LineBotApi("3dSzUytSAnRrwm5UZVJrQ927Jr9Zr18ZiEAPvJO1O+Ujq4ojGV4++Gx4cjBt6gk4kP7uFfwzdhzP/VXAhM/n6ecxhq6Tc+BolVnZAem6/H74mK/UDLLSFAY6LXu1TJeH6ocOM3I1K3TP2M+rReFE1wdB04t89/1O/w1cDnyilFU=")
-LINE_USER_ID_TO = "U3adcd002fefaef0ace51869b69215e70"
+line_bot_api = LineBotApi("*****")
+LINE_USER_ID_TO = "*****"
 
 #スクレイピング
-url = 'https://transit.yahoo.co.jp/traininfo/area/4/'
+url = '*****'
 res = req.urlopen(url)
 soup = BeautifulSoup(res, "html.parser")
 result = []
